@@ -5,7 +5,7 @@ import base64
 app = Flask(__name__)
 
 # Connect to MongoDB
-client = MongoClient("mongodb+srv://password:password@cluster0.btuijp0.mongodb.net/?retryWrites=true&w=majority")
+client = MongoClient("mongodb+srv://username:password@cluster0.btuijp0.mongodb.net/?retryWrites=true&w=majority")
 db = client["identity_cards"]
 collection = db["cards"]
 
